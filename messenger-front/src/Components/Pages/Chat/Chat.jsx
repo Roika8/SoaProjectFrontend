@@ -75,7 +75,7 @@ const Chat = () => {
     //Scrool down to chat
     const scrollRef = useRef();
     //Socket definition
-    const ENDPOINT = "ws://localhost:8900";
+    const ENDPOINT = "https://soaprojectbackend.azurewebsites.net";
     const socket = useRef();
 
     const [open, setOpen] = useState(false);
